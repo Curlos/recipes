@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+
+body {
+  font-family: Dosis;
+  background-color: #E7AB46;
+  color: white;
+}
+
+.homePageContainer {
+  font-size: 27px;
+  border: 5px solid white;
+  border-radius: 20px;
+}
+
+.homePageContainer h1 {
+  text-align: center;
+  padding: 10px;
+  border-bottom: 5px solid white;
+}
+
+.homePageContainer ul li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: underline;
+  color: white;
+}
+
+a:hover {
+  color: black;
+}
+
+.homePageContainer img {
+  width: 200px;
+}
+
+.homePageContainer li {
+  margin: 15px;
+}
+
+
+.recipePageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Dosis;
+  background-color: #E7AB46;
+}
